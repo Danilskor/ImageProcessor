@@ -223,3 +223,6 @@ __marimo__/
 *.tiff 
 *.tif 
 *.webp
+
+#Project files
+*.iproj
