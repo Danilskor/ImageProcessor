@@ -4,7 +4,7 @@ set -e
 
 echo "=== ImageProcessor — local build ==="
 
-pip install pyinstaller --quiet
+pip install -r requirements.txt pyinstaller --quiet
 rm -rf build dist
 
 pyinstaller imageprocessor.spec --noconfirm

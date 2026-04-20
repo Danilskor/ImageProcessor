@@ -6,7 +6,7 @@ $ErrorActionPreference = "Stop"
 
 Write-Host "=== ImageProcessor — local build ===" -ForegroundColor Cyan
 
-pip install pyinstaller --quiet
+pip install -r requirements.txt pyinstaller --quiet
 
 Remove-Item -Recurse -Force build, dist -ErrorAction SilentlyContinue
 
